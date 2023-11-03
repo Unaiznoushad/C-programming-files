@@ -1,0 +1,16 @@
+00:24:48 **** Incremental Build of configuration Debug for project even numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\even numbers.o" "..\\src\\even numbers.c" 
+..\src\even numbers.c: In function 'main':
+..\src\even numbers.c:17:12: error: invalid operands to binary & (have 'char *' and 'int')
+  scanf("%d"&limit);
+        ~~~~^
+..\src\even numbers.c:18:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for(i=2;i<=limit;i++);
+  ^~~
+..\src\even numbers.c:19:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+  {
+  ^
+
+00:24:48 Build Failed. 1 errors, 1 warnings. (took 126ms)
+

@@ -1,0 +1,161 @@
+01:44:29 **** Rebuild of configuration Debug for project average ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\average.o" "..\\src\\average.c" 
+gcc -o average.exe "src\\average.o" 
+01:44:41 **** Incremental Build of configuration Debug for project average ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\average.o" "..\\src\\average.c" 
+..\src\average.c: In function 'main':
+..\src\average.c:17:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d%d%d",&num1,&num2,&num3);
+         ~^      ~~~~~
+         %e
+..\src\average.c:17:12: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'float *' [-Wformat=]
+  scanf("%d%d%d",&num1,&num2,&num3);
+           ~^          ~~~~~
+           %e
+..\src\average.c:17:14: warning: format '%d' expects argument of type 'int *', but argument 4 has type 'float *' [-Wformat=]
+  scanf("%d%d%d",&num1,&num2,&num3);
+             ~^              ~~~~~
+             %e
+..\src\average.c:17:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d%d%d",&num1,&num2,&num3);
+         ~^      ~~~~~
+         %e
+..\src\average.c:17:12: warning: format '%d' expects argument of type 'int *', but argument 3 has type 'float *' [-Wformat=]
+  scanf("%d%d%d",&num1,&num2,&num3);
+           ~^          ~~~~~
+           %e
+..\src\average.c:17:14: warning: format '%d' expects argument of type 'int *', but argument 4 has type 'float *' [-Wformat=]
+  scanf("%d%d%d",&num1,&num2,&num3);
+             ~^              ~~~~~
+             %e
+gcc -o average.exe "src\\average.o" 
+Info: Nothing to build for average
+00:03:36 **** Rebuild of configuration Debug for project sample input ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sample input.o" "..\\src\\sample input.c" 
+gcc -o "sample input.exe" "src\\sample input.o" 
+Info: Nothing to build for sample input
+21:48:00 **** Rebuild of configuration Debug for project swapping ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\swapping.o" "..\\src\\swapping.c" 
+gcc -o swapping.exe "src\\swapping.o" 
+21:48:23 **** Incremental Build of configuration Debug for project swapping ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\swapping.o" "..\\src\\swapping.c" 
+gcc -o swapping.exe "src\\swapping.o" 
+22:29:00 **** Rebuild of configuration Debug for project negative or positive ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\negative or positive.o" "..\\src\\negative or positive.c" 
+gcc -o "negative or positive.exe" "src\\negative or positive.o" 
+22:29:19 **** Incremental Build of configuration Debug for project negative or positive ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\negative or positive.o" "..\\src\\negative or positive.c" 
+gcc -o "negative or positive.exe" "src\\negative or positive.o" 
+22:31:16 **** Incremental Build of configuration Debug for project negative or positive ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\negative or positive.o" "..\\src\\negative or positive.c" 
+gcc -o "negative or positive.exe" "src\\negative or positive.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file negative or positive.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:31:43 **** Incremental Build of configuration Debug for project negative or positive ****
+Info: Internal Builder is used for build
+gcc -o "negative or positive.exe" "src\\negative or positive.o" 
+C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file negative or positive.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:37:49 **** Rebuild of configuration Debug for project 2 numbs ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2 numbs.o" "..\\src\\2 numbs.c" 
+gcc -o "2 numbs.exe" "src\\2 numbs.o" 
+23:38:00 **** Incremental Build of configuration Debug for project 2 numbs ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\2 numbs.o" "..\\src\\2 numbs.c" 
+gcc -o "2 numbs.exe" "src\\2 numbs.o" 
+23:58:13 **** Rebuild of configuration Debug for project forloopupto100 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\forloopupto100.o" "..\\src\\forloopupto100.c" 
+gcc -o forloopupto100.exe "src\\forloopupto100.o" 
+23:58:22 **** Incremental Build of configuration Debug for project forloopupto100 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\forloopupto100.o" "..\\src\\forloopupto100.c" 
+gcc -o forloopupto100.exe "src\\forloopupto100.o" 
+Info: Nothing to build for forloopupto100
+23:59:19 **** Incremental Build of configuration Debug for project forloopupto100 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\forloopupto100.o" "..\\src\\forloopupto100.c" 
+gcc -o forloopupto100.exe "src\\forloopupto100.o" 
+Info: Nothing to build for forloopupto100
+00:00:51 **** Incremental Build of configuration Debug for project forloopupto100 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\forloopupto100.o" "..\\src\\forloopupto100.c" 
+gcc -o forloopupto100.exe "src\\forloopupto100.o" 
+00:21:38 **** Rebuild of configuration Debug for project even numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\even numbers.o" "..\\src\\even numbers.c" 
+gcc -o "even numbers.exe" "src\\even numbers.o" 
+00:21:45 **** Incremental Build of configuration Debug for project even numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\even numbers.o" "..\\src\\even numbers.c" 
+..\src\even numbers.c: In function 'main':
+..\src\even numbers.c:17:12: error: invalid operands to binary & (have 'char *' and 'int')
+  scanf("%d"&limit);
+        ~~~~^
+..\src\even numbers.c:18:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for(i=2;i<=limit;i++);
+  ^~~
+..\src\even numbers.c:19:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+  {
+  ^
+00:22:18 **** Incremental Build of configuration Debug for project even numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\even numbers.o" "..\\src\\even numbers.c" 
+..\src\even numbers.c: In function 'main':
+..\src\even numbers.c:17:12: error: invalid operands to binary & (have 'char *' and 'int')
+  scanf("%d"&limit);
+        ~~~~^
+..\src\even numbers.c:18:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for(i=2;i<=limit;i++);
+  ^~~
+..\src\even numbers.c:19:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+  {
+  ^
+00:22:43 **** Incremental Build of configuration Debug for project even numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\even numbers.o" "..\\src\\even numbers.c" 
+..\src\even numbers.c: In function 'main':
+..\src\even numbers.c:17:12: error: invalid operands to binary & (have 'char *' and 'int')
+  scanf("%d"&limit);
+        ~~~~^
+..\src\even numbers.c:18:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for(i=2;i<=limit;i++);
+  ^~~
+..\src\even numbers.c:19:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+  {
+  ^
+00:23:53 **** Incremental Build of configuration Debug for project even numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\even numbers.o" "..\\src\\even numbers.c" 
+..\src\even numbers.c: In function 'main':
+..\src\even numbers.c:17:12: error: invalid operands to binary & (have 'char *' and 'int')
+  scanf("%d"&limit);
+        ~~~~^
+..\src\even numbers.c:18:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for(i=2;i<=limit;i++);
+  ^~~
+..\src\even numbers.c:19:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+  {
+  ^
+00:24:48 **** Incremental Build of configuration Debug for project even numbers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\even numbers.o" "..\\src\\even numbers.c" 
+..\src\even numbers.c: In function 'main':
+..\src\even numbers.c:17:12: error: invalid operands to binary & (have 'char *' and 'int')
+  scanf("%d"&limit);
+        ~~~~^
+..\src\even numbers.c:18:2: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  for(i=2;i<=limit;i++);
+  ^~~
+..\src\even numbers.c:19:2: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+  {
+  ^

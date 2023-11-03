@@ -1,0 +1,7 @@
+00:00:51 **** Incremental Build of configuration Debug for project forloopupto100 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\forloopupto100.o" "..\\src\\forloopupto100.c" 
+gcc -o forloopupto100.exe "src\\forloopupto100.o" 
+
+00:00:52 Build Finished. 0 errors, 0 warnings. (took 390ms)
+
